@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+}
+header  .wel{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    background-color: rgb(6, 108, 6);
+}
+header .wel h5{
+    font-size: 15px;
+    color: white;
+}
+header .wel h5 a{
+    color: rgb(207, 210, 27);
+}
+.blog{
+    display: flex;
+    background-color: rgb(67, 140, 67);
+}
+.blog h1{
+    margin-left: 150px;
+    color: white;
+    font-weight: 100;
+    padding: 20px;
+}
+.blog h1 span{
+    font-size: 20px;
+    margin-left: 25px;
+}
+ nav{
+    background-color: rgb(92, 205, 92);
+    overflow: hidden;
+ }
+
+ nav ul li{
+    float: left;
+    list-style: none;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: rgb(8, 8, 8);
+    font-weight: 600;
+ }
+ nav ul{
+    margin-left: 150px;
+ }
+ main{
+    position: absolute;
+    left: 150px;
+ }
+ main p{
+   color: rgb(0, 0, 0);
+   margin-top: 10px;
+ }
+ main h2{
+    margin-top: 20px;
+ }
+ main .p2{
+    border-left: 2px solid rgb(165, 227, 8);
+    margin-left: 40px;
+    margin-top: 20px;
+ }
+ main .p2 p{
+    padding-left: 20px;
+    padding: 10px 10px;
+ }
+ aside{
+    position: absolute;
+   right: -300px;
+   top: 0px;
+   border: 2px solid wheat;
+   width: 250px;
+   background-color: rgb(201, 196, 188);
+ }
+ aside ul li{
+    list-style: none;
+    margin-left: 30px;
+ }
+ main .p3{
+    border-left: 2px solid rgb(165, 227, 8);
+    margin-left: 40px;
+    margin-top: 20px;
+ }
+ main .p3 p{
+    padding-left: 20px;
+    padding: 10px 10px;
+ }
+ footer{
+    background-color: rgba(21, 94, 21, 0.882);
+    position: relative;
+    top: 220vh;
+    
+ }
+ footer .div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+ }
+ footer .div1 h5, .div2 h5{
+    font-size: 20px;
+    padding-top: 20px;
+    color: rgb(23, 231, 103);
+ }
+ footer .div1 h6, .div2 h6{
+    font-size: 15px;
+    margin-top: 5px;
+    color: #fff;
+ }
+ footer .div3{
+    color: #fff;
+    margin-top: 20px;
+ }
+ @media screen and(max-width:640px) {
+   header .wel{
+      display: flex;
+      
+   }
+ }
